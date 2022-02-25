@@ -6,10 +6,6 @@ import ThumbDownIcon from '@mui/icons-material/ThumbDown';
 import FastForwardIcon from '@mui/icons-material/FastForward';
 
 
-
-
-
-
 const Ejercicio192021 = () => {
 
    const [jokes, setJoke] = useState([]);
@@ -59,12 +55,7 @@ const Ejercicio192021 = () => {
             </div>
             <div>
                   Chistes que no te han gustado:{disLike}
-                <div> <Button variant='contained' color='error' onClick={sumarDisLike}>DisLike <ThumbDownIcon/>  </Button> </div> 
-
-             
-              
-                 
-               
+                <div> <Button variant='contained' color='error' onClick={sumarDisLike}>DisLike <ThumbDownIcon/>  </Button> </div>     
             </div>
         </div>
     );
